@@ -20,6 +20,8 @@ on:
         default: 'true'
 #  schedule:
 #    - cron: 0 8 * * 5
+watch:                     # 监视操作
+  types: started         # 点击 star 之后,可以写数组形式，具体可以参考官方文档
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
